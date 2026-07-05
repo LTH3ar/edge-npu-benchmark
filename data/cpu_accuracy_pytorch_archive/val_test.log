@@ -1,0 +1,114 @@
+(.venv) pi@raspberrypi:~/Workspaces/cpu-test $ yolo val model=yolov8n.pt data=coco.yaml
+Ultralytics 8.4.82 🚀 Python-3.13.5 torch-2.12.1+cpu CPU (aarch64)
+YOLOv8n summary (fused): 72 layers, 3,151,904 parameters, 0 gradients, 8.7 GFLOPs
+val: Fast image access ✅ (ping: 0.0±0.0 ms, read: 419.4±122.0 MB/s, size: 187.5 KB)
+val: Scanning /home/pi/Workspaces/cpu-test/datasets/coco/labels/val2017.cache... 4952 images, 48 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 5000/5000 676.5Mit/s 0.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 313/313 5.7s/it 29:44
+                   all       5000      36335      0.634      0.475      0.519      0.368
+                person       2693      10777      0.755      0.671      0.742      0.508
+               bicycle        149        314       0.69      0.392      0.454      0.261
+                   car        535       1918      0.648      0.514      0.559      0.361
+            motorcycle        159        367      0.712       0.58      0.655       0.41
+              airplane         97        143      0.814      0.764      0.833      0.651
+                   bus        189        283      0.747      0.643      0.737      0.616
+                 train        157        190      0.798       0.77      0.833      0.644
+                 truck        250        414      0.547      0.397      0.434      0.292
+                  boat        121        424      0.583        0.3      0.373      0.206
+         traffic light        191        634      0.647      0.345      0.405      0.209
+          fire hydrant         86        101       0.85      0.703      0.772      0.611
+             stop sign         69         75      0.696       0.64      0.689      0.626
+         parking meter         37         60      0.633        0.5      0.555      0.438
+                 bench        235        411      0.571      0.258      0.294      0.193
+                  bird        125        427      0.693      0.358      0.423      0.274
+                   cat        184        202      0.776      0.824      0.854      0.648
+                   dog        177        218      0.656      0.698      0.727       0.59
+                 horse        128        272      0.701      0.651      0.691      0.521
+                 sheep         65        354      0.611      0.667      0.661      0.457
+                   cow         87        372      0.697        0.6       0.68      0.486
+              elephant         89        252      0.705      0.833       0.82      0.625
+                  bear         49         71      0.848      0.775       0.84      0.684
+                 zebra         85        266      0.809      0.797      0.882      0.653
+               giraffe        101        232      0.857      0.828      0.886       0.68
+              backpack        228        371       0.49      0.156      0.195      0.099
+              umbrella        174        407      0.632      0.504      0.538      0.356
+               handbag        292        540       0.48      0.126      0.166     0.0838
+                   tie        145        252      0.688      0.361      0.425      0.265
+              suitcase        105        299      0.571      0.435        0.5      0.339
+               frisbee         84        115      0.747      0.771      0.765       0.58
+                  skis        120        241      0.605      0.317      0.367      0.186
+             snowboard         49         69      0.507      0.333      0.394      0.266
+           sports ball        169        260      0.716      0.438      0.468      0.327
+                  kite         91        327      0.606       0.52      0.554      0.376
+          baseball bat         97        145      0.586      0.386        0.4      0.216
+        baseball glove        100        148       0.67      0.473      0.509        0.3
+            skateboard        127        179      0.721      0.607      0.661      0.448
+             surfboard        149        267      0.629      0.476      0.503      0.306
+         tennis racket        167        225      0.705      0.618      0.669      0.394
+                bottle        379       1013      0.614      0.386      0.452      0.294
+            wine glass        110        341      0.661      0.352      0.415      0.265
+                   cup        390        895      0.584      0.441      0.486      0.347
+                  fork        155        215      0.582      0.318      0.386      0.261
+                 knife        181        325      0.508      0.163       0.17      0.103
+                 spoon        153        253      0.413      0.145      0.157     0.0961
+                  bowl        314        623       0.59      0.494      0.528      0.388
+                banana        103        370      0.551      0.319      0.372       0.23
+                 apple         76        236      0.415      0.242      0.223      0.152
+              sandwich         98        177      0.571      0.486      0.461      0.346
+                orange         85        285       0.44      0.418      0.365      0.277
+              broccoli         71        312      0.477      0.338      0.368      0.207
+                carrot         81        365      0.447      0.293      0.304      0.186
+               hot dog         51        125       0.76      0.431      0.494       0.36
+                 pizza        153        284       0.66      0.613      0.656      0.498
+                 donut         62        328      0.577      0.494      0.511      0.402
+                  cake        124        310      0.535       0.39      0.434      0.288
+                 chair        580       1771      0.583      0.339        0.4      0.254
+                 couch        195        261      0.592       0.55      0.583      0.431
+          potted plant        172        342      0.521       0.38      0.383      0.224
+                   bed        149        163      0.551      0.552      0.588      0.425
+          dining table        501        695      0.529      0.439      0.433      0.288
+                toilet        149        179      0.722      0.737      0.773      0.638
+                    tv        207        288      0.772      0.635      0.711      0.549
+                laptop        183        231      0.682      0.662      0.696      0.575
+                 mouse         88        106      0.634      0.651      0.706      0.527
+                remote        145        283      0.431      0.223      0.268      0.158
+              keyboard        106        153      0.594      0.602      0.647      0.479
+            cell phone        214        262      0.551      0.351      0.397      0.278
+             microwave         54         55      0.617      0.545      0.642      0.511
+                  oven        115        143      0.644      0.448      0.509      0.346
+               toaster          8          9      0.727      0.222      0.435      0.315
+                  sink        187        225      0.563       0.44      0.506      0.334
+          refrigerator        101        126      0.667      0.587      0.648      0.507
+                  book        230       1129      0.491      0.111      0.193      0.094
+                 clock        204        267      0.751      0.607      0.664      0.455
+                  vase        137        274      0.584      0.445       0.45      0.319
+              scissors         28         36       0.69      0.333       0.33      0.276
+            teddy bear         94        190       0.67      0.558      0.601      0.414
+            hair drier          9         11          1          0    0.00334    0.00269
+            toothbrush         34         57      0.403      0.193      0.234      0.163
+Speed: 1.8ms preprocess, 342.8ms inference, 0.0ms loss, 2.6ms postprocess per image
+Saving /home/pi/Workspaces/cpu-test/runs/detect/val/predictions.json...
+
+Evaluating faster-coco-eval mAP using /home/pi/Workspaces/cpu-test/runs/detect/val/predictions.json and /home/pi/Workspaces/cpu-test/datasets/coco/annotations/instances_val2017.json...
+Evaluate annotation type *bbox*
+COCOeval_opt.evaluate() finished...
+DONE (t=9.51s).
+Accumulating evaluation results...
+COCOeval_opt.accumulate() finished...
+DONE (t=0.00s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.374
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.526
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.405
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.186
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.410
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.535
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.320
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.533
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.589
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.369
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.654
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.768
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.811
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.638
+Results saved to /home/pi/Workspaces/cpu-test/runs/detect/val
+💡 Learn more at https://docs.ultralytics.com/modes/val
+

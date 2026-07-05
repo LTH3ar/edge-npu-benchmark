@@ -1,0 +1,90 @@
+(venv_hailo_apps) pi@raspberrypi:~/Workspaces/hailo-apps-test $ hailortcli benchmark resources/models/hailo8/yolov8n.hef
+Starting Measurements...
+Measuring FPS in HW-only mode
+Network yolov8n/yolov8n: 100% | 6475 | FPS: 431.49 | ETA: 00:00:00
+Measuring FPS (and Power on supported platforms) in streaming mode
+Network yolov8n/yolov8n: 100% | 6475 | FPS: 431.50 | ETA: 00:00:00
+Measuring HW Latency
+Network yolov8n/yolov8n: 100% | 2069 | HW Latency: 3.35 ms | ETA: 00:00:00
+
+=======
+Summary
+=======
+FPS     (hw_only)                 = 431.489
+        (streaming)               = 431.499
+Latency (hw)                      = 3.35423 ms
+(venv_hailo_apps) pi@raspberrypi:~/Workspaces/hailo-apps-test $ hailortcli benchmark resources/models/hailo8/yolov8s.hef
+Starting Measurements...
+Measuring FPS in HW-only mode
+Network yolov8s/yolov8s: 100% | 7373 | FPS: 491.33 | ETA: 00:00:00
+Measuring FPS (and Power on supported platforms) in streaming mode
+Network yolov8s/yolov8s: 100% | 7350 | FPS: 489.81 | ETA: 00:00:00
+Measuring HW Latency
+Network yolov8s/yolov8s: 100% | 1599 | HW Latency: 5.83 ms | ETA: 00:00:00
+
+=======
+Summary
+=======
+FPS     (hw_only)                 = 491.267
+        (streaming)               = 489.81
+Latency (hw)                      = 5.82964 ms
+(venv_hailo_apps) pi@raspberrypi:~/Workspaces/hailo-apps-test $ hailortcli benchmark resources/models/hailo8/yolov8m.hef
+Starting Measurements...
+Measuring FPS in HW-only mode
+Network yolov8m/yolov8m: 100% | 474 | FPS: 31.53 | ETA: 00:00:00
+Measuring FPS (and Power on supported platforms) in streaming mode
+Network yolov8m/yolov8m: 100% | 473 | FPS: 31.47 | ETA: 00:00:00
+Measuring HW Latency
+Network yolov8m/yolov8m: 100% | 473 | HW Latency: 25.84 ms | ETA: 00:00:00
+
+=======
+Summary
+=======
+FPS     (hw_only)                 = 31.4656
+        (streaming)               = 31.4661
+Latency (hw)                      = 25.8396 ms
+(venv_hailo_apps) pi@raspberrypi:~/Workspaces/hailo-apps-test $ hailortcli benchmark resources/models/hailo8/yolov11n.hef
+Starting Measurements...
+Measuring FPS in HW-only mode
+Network yolov11n/yolov11n: 100% | 1577 | FPS: 104.90 | ETA: 00:00:00
+Measuring FPS (and Power on supported platforms) in streaming mode
+Network yolov11n/yolov11n: 100% | 1577 | FPS: 104.91 | ETA: 00:00:00
+Measuring HW Latency
+Network yolov11n/yolov11n: 100% | 1281 | HW Latency: 7.75 ms | ETA: 00:00:00
+
+=======
+Summary
+=======
+FPS     (hw_only)                 = 104.906
+        (streaming)               = 104.908
+Latency (hw)                      = 7.75427 ms
+(venv_hailo_apps) pi@raspberrypi:~/Workspaces/hailo-apps-test $ hailortcli benchmark resources/models/hailo8/yolov11s.hef
+Starting Measurements...
+Measuring FPS in HW-only mode
+Network yolov11s/yolov11s: 100% | 780 | FPS: 51.98 | ETA: 00:00:00
+Measuring FPS (and Power on supported platforms) in streaming mode
+Network yolov11s/yolov11s: 100% | 780 | FPS: 51.89 | ETA: 00:00:00
+Measuring HW Latency
+Network yolov11s/yolov11s: 100% | 774 | HW Latency: 15.62 ms | ETA: 00:00:00
+
+=======
+Summary
+=======
+FPS     (hw_only)                 = 51.9789
+        (streaming)               = 51.8889
+Latency (hw)                      = 15.6176 ms
+(venv_hailo_apps) pi@raspberrypi:~/Workspaces/hailo-apps-test $ hailortcli benchmark resources/models/hailo8/yolov11m.hef
+Starting Measurements...
+Measuring FPS in HW-only mode
+Network yolov11m/yolov11m: 100% | 366 | FPS: 24.35 | ETA: 00:00:00
+Measuring FPS (and Power on supported platforms) in streaming mode
+Network yolov11m/yolov11m: 100% | 366 | FPS: 24.35 | ETA: 00:00:00
+Measuring HW Latency
+Network yolov11m/yolov11m: 100% | 366 | HW Latency: 32.52 ms | ETA: 00:00:00
+
+=======
+Summary
+=======
+FPS     (hw_only)                 = 24.3474
+        (streaming)               = 24.348
+Latency (hw)                      = 32.5158 ms
